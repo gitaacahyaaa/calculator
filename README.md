@@ -19,6 +19,14 @@ This application was created for educational purposes to improve programming ski
 - Java script, CSS, HTML
 - VS CODE
 
+## 🌐 Live Demo
+
+Try the calculator here:
+
+[Open Calculator](https://calculator-eight-rho-53.vercel.app)
+
+
+
 ## 📚 Status
 This project is part of my learning journey and may be updated with new features in the future.
 
