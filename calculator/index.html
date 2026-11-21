@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Bunny Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="decoration heart">♡</div>
+    <div class="decoration star">✦</div>
+    <div class="decoration flower">✿</div>
+    <div class="decoration heart second">♡</div>
+
+    <main class="calculator">
+
+        <div class="bunny">
+            <span class="bunny-ear left"></span>
+            <span class="bunny-ear right"></span>
+            <span class="bow">🎀</span>
+            <span class="bunny-face">🐰</span>
+        </div>
+
+        <header>
+            <span class="tag">♡ CALCULATOR ♡</span>
+            <h1>Pink Bunny</h1>
+            <p>Let's calculate something cute!</p>
+        </header>
+
+        <section class="display">
+            <div class="display-label">Your calculation ♡</div>
+            <div id="previous"></div>
+            <div id="current">0</div>
+        </section>
+
+        <section class="buttons">
+            <button class="utility" data-action="clear">AC</button>
+            <button class="utility" data-action="delete">DEL</button>
+            <button class="operator" data-operator="%">%</button>
+            <button class="operator" data-operator="/">÷</button>
+
+            <button data-number="7">7</button>
+            <button data-number="8">8</button>
+            <button data-number="9">9</button>
+            <button class="operator" data-operator="*">×</button>
+
+            <button data-number="4">4</button>
+            <button data-number="5">5</button>
+            <button data-number="6">6</button>
+            <button class="operator" data-operator="-">−</button>
+
+            <button data-number="1">1</button>
+            <button data-number="2">2</button>
+            <button data-number="3">3</button>
+            <button class="operator" data-operator="+">+</button>
+
+            <button data-action="sign">±</button>
+            <button data-number="0">0</button>
+            <button data-action="decimal">.</button>
+            <button class="equal" data-action="calculate">=</button>
+        </section>
+
+        <footer>
+            day 1 belajar buat kalkulator, lol.
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
